@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Storage / Armazenamento"
+    android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btn_gravar_ce"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar no Cartao emulado"/>
+    <Button
+        android:id="@+id/btn_ler_ce"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler no Cartao emulado"/>
+    <Button
+        android:id="@+id/btn_apagar_ce"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar no Cartao emulado"/>
+    <Button
+        android:id="@+id/btn_gravar_sd"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar no SD"/>
+    <Button
+        android:id="@+id/btn_ler_sd"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler no SD"/>
+    <Button
+        android:id="@+id/btn_apagar_sd"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar no SD"/>
+    <Button
+        android:id="@+id/btn_gravar_sb"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravar no SB"/>
+    <Button
+        android:id="@+id/btn_ler_sb"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler no SB"/>
+    <Button
+        android:id="@+id/btn_apagar_sb"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagar no SB"/>
+
+</LinearLayout>
